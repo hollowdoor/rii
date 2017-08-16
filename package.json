@@ -1,0 +1,32 @@
+{
+  "name": "rii",
+  "version": "1.0.0",
+  "description": "CLI command runner",
+  "main": "index.js",
+  "bin": {
+    "rii": "cli.js"
+  },
+  "scripts": {
+    "test": "cd test && tap run*.js --100"
+  },
+  "keywords": [
+    "CLI",
+    "shell",
+    "task",
+    "run",
+    "exec"
+  ],
+  "author": "Quentin Engles <hollowdoor99@gmail.com> (https://hollowdoor.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^5.1.1",
+    "camelcase": "^4.1.0",
+    "glob": "^7.1.2",
+    "globby": "^6.1.0",
+    "has-flag": "^2.0.0",
+    "yargs-parser": "^7.0.0"
+  },
+  "devDependencies": {
+    "tap": "^10.7.2"
+  }
+}
