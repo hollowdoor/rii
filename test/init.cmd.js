@@ -8,4 +8,6 @@ function init(ctx, world){
 
 function def(ctx){
     ctx.ran.push('def');
+    //Sanity?
+    console.log(ctx.str);
 }
